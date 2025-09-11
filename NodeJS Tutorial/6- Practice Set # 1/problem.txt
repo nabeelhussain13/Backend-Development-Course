@@ -1,0 +1,9 @@
+Create a page that shows a navigation bar of an E-commerce website with the following links:
+A. Home
+B. Men
+C. Women
+D. Kids
+E. Cart
+
+Clicking on each link should navigate to that page and a welcome to section text is shown there.
+
