@@ -1,0 +1,14 @@
+{
+  "name": "npm-tutorial",
+  "version": "1.0.0",
+  "description": "This package is being create to learn about npm packages.",
+  "license": "ISC",
+  "author": "Syed Nabeel Hussain",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "khul-ja-sim-sim": "nodemon index.js"
+  }
+}
