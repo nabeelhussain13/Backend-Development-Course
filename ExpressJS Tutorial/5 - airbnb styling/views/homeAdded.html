@@ -3,14 +3,33 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home Added Successfully</title>
+    <title>Home Added</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
-  <body>
+  <body class="font-[arial]">
     <header>
-      <h1>Home Registered successfully</h1>
+      <nav class="bg-[#FF385C] h-12 flex items-center">
+        <a href="/" class="text-white ml-12">Go to Home</a
+        ><a href="/host/add-home" class="text-white ml-12">Add Home</a>
+      </nav>
     </header>
-    <main>
-      <a href="/">Go to Home</a>
+
+    <main class="flex justify-center">
+      <div
+        class="w-[90%] mt-8 h-auto flex flex-col gap-2 justify-center items-center rounded-lg shadow-lg p-6"
+      >
+        <p class="text-3xl text-[#FF385C] font-semibold">
+          Home Registered Successfully
+        </p>
+        <p class="text-lg">Your home has been added to our listing.</p>
+        <a href="/"
+          ><button
+            class="bg-[#FF385C] p-1 rounded-[1rem] text-white w-40 hover: cursor-pointer"
+          >
+            Return to Home
+          </button></a
+        >
+      </div>
     </main>
   </body>
 </html>

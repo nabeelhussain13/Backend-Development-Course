@@ -3,15 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="./output.css" /> -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>airbnb Home</title>
   </head>
-  <body>
-    <nav><a href="/">Go to Home</a><a href="/host/add-home">Add Home</a></nav>
+  <body class="font-[arial]">
+    <header>
+      <nav class="bg-[#FF385C] h-12 flex items-center">
+        <a href="/" class="text-white ml-12">Go to Home</a
+        ><a href="/host/add-home" class="text-white ml-12">Add Home</a>
+      </nav>
+    </header>
 
-    <main>
-      <button>
-        <a href="/host/add-home"> Add Home </a>
-      </button>
+    <main class="flex justify-center">
+      <div
+        class="w-[40%] mt-8 h-24 flex justify-center items-center rounded-lg shadow-lg p-6"
+      >
+        <span class="text-4xl font-semibold text-[#FF385C]"
+          >Welcome to airbnb</span
+        >
+      </div>
     </main>
   </body>
 </html>
