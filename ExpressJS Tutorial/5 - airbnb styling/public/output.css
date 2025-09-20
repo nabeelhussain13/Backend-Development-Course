@@ -1,0 +1,18 @@
+/*! tailwindcss v4.1.13 | MIT License | https://tailwindcss.com */
+
+body {
+  padding: 0;
+  margin: 0;
+}
+.flex {
+  display: flex;
+}
+.w-\[40\%\] {
+  width: 40%;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.bg-\[\#FF385C\] {
+  background-color: #ff385c;
+}

@@ -1,9 +1,7 @@
 //Core modules
 const path = require('path');
-
 //External modules
 const express = require('express');
-
 //Local modules
 const contactRouter = express.Router();
 const rootDir = require('../utils/pathUtil');
