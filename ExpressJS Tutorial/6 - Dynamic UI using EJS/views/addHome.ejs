@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%= pageTitle %></title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="font-[arial]">
+    <header>
+      <nav class="bg-[#FF385C] h-12 flex items-center">
+        <a href="/" class="text-white ml-12">Go to Home</a
+        ><a href="/host/add-home" class="text-white ml-12">Add Home</a>
+      </nav>
+    </header>
+
+    <main class="flex justify-center">
+      <div
+        class="w-[90%] mt-8 h-auto flex justify-center items-center rounded-lg shadow-lg p-6"
+      >
+        <form action="/host/add-home" method="POST">
+          <span class="text-3xl font-semibold w-full"
+            >Register your home on airbnb</span
+          >
+          <br />
+          <input
+            class="w-full bg-gray-200 text-center rounded-lg h-8 mt-4"
+            type="text"
+            name="houseName"
+            placeholder="Enter the name of your house"
+          />
+          <br />
+          <input
+            type="submit"
+            class="w-full mt-2 bg-[#FF385C] h-8 text-white rounded-lg hover: cursor-pointer"
+          />
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
