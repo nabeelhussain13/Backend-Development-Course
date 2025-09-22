@@ -1,0 +1,16 @@
+[
+  {
+    "houseName": "White House",
+    "price": "100000",
+    "location": "USA",
+    "rating": "3",
+    "imageUrl": "https://www.nps.gov/common/uploads/cropped_image/primary/F0CEDDA8-CDA3-A365-792FF3B0EB0FCFF8.jpg?width=1600&quality=90&mode=crop"
+  },
+  {
+    "houseName": "Ziarat Residency",
+    "price": "60000",
+    "location": "Ziarat",
+    "rating": "4.7",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Quaid_e_Azam_Residency_Ziarat.jpg"
+  }
+]
