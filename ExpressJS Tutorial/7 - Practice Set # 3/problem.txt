@@ -1,0 +1,4 @@
+Reuse the app from last assignment.
+1. Add more fields in the home page like price per night, rating, location and photo.
+2. Design the home card to show all this information.
+3. Make the selected tab active on top.
