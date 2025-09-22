@@ -1,14 +1,14 @@
 const Home = require("../models/home");
 
 exports.getAddHome = (req, res, next) => {
-  res.render("addHome", { pageTitle: "Add Home" });
+  res.render("addHome", { pageTitle: "Add Home", currentPage: "addHome" });
 };
 
 exports.postAddHome = (req, res, next) => {
   const { houseName, price, location, rating, imageUrl } = req.body;
   const home = new Home(houseName, price, location, rating, imageUrl);
   home.save();
-  res.render("homeAdded", { pageTitle: "Home Added" });
+  res.render("homeAdded", { pageTitle: "Home Added", currentPage: "addHome" });
 };
 
 exports.getHome = (req, res, next) => {
@@ -16,6 +16,7 @@ exports.getHome = (req, res, next) => {
     res.render("home", {
       registeredHomes: registeredHomes,
       pageTitle: "airbnb Home",
+      currentPage: "home",
     });
   });
 };

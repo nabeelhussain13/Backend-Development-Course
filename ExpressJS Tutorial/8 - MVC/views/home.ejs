@@ -8,13 +8,7 @@
     <title><%= pageTitle %></title>
   </head>
   <body class="font-[arial]">
-    <header>
-      <nav class="bg-[#FF385C] h-12 flex items-center">
-        <a href="/" class="text-white ml-12">Go to Home</a>
-        <a href="/host/add-home" class="text-white ml-12">Add Home</a>
-      </nav>
-    </header>
-
+    <%- include('partials/nav') %>
     <main class="flex flex-col items-center mt-8">
       <div
         class="w-[90%] h-24 flex justify-center items-center rounded-lg shadow-lg p-6 mb-6"
