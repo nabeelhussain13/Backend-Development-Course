@@ -1,0 +1,50 @@
+[
+  {
+    "houseName": "PC Hotel",
+    "price": "8000",
+    "location": "Islamabad, Pakistan",
+    "rating": "4.8",
+    "imageUrl": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1170&q=80",
+    "id": "lwrisru9aaq"
+  },
+  {
+    "houseName": "Burj Al Arab",
+    "price": "15000",
+    "location": "Dubai, UAE",
+    "rating": "4.9",
+    "imageUrl": "https://plus.unsplash.com/premium_photo-1661962769148-fbe587e60fb8?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "id": "dubai123"
+  },
+  {
+    "houseName": "Marina Bay Sands",
+    "price": "12000",
+    "location": "Singapore",
+    "rating": "4.7",
+    "imageUrl": "https://images.unsplash.com/photo-1529290130-4ca3753253ae?q=80&w=1176&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "id": "sgp456"
+  },
+  {
+    "houseName": "The Ritz-Carlton",
+    "price": "10000",
+    "location": "Tokyo, Japan",
+    "rating": "4.8",
+    "imageUrl": "https://images.unsplash.com/photo-1652400096979-c2cce304e993?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "id": "tokyo789"
+  },
+  {
+    "houseName": "Hotel de Paris",
+    "price": "13000",
+    "location": "Monte Carlo, Monaco",
+    "rating": "4.9",
+    "imageUrl": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1170&q=80",
+    "id": "monaco321"
+  },
+  {
+    "houseName": "Four Seasons",
+    "price": "11000",
+    "location": "New York, USA",
+    "rating": "4.6",
+    "imageUrl": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1170&q=80",
+    "id": "nyc654"
+  }
+]

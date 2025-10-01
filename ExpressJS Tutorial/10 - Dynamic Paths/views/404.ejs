@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="./output.css" /> -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title><%= pageTitle %></title>
+  </head>
+  <body class="font-[arial]">
+    <%- include('partials/nav') %>
+    <main class="flex justify-center items-center mt-12">
+      <div
+        class="w-[80%] md:w-[50%] flex flex-col items-center justify-center bg-white rounded-lg shadow-lg p-8"
+      >
+        <div class="text-center">
+          <p class="text-6xl text-[#FF385C] font-bold">404</p>
+          <p class="text-2xl text-gray-800 mt-4 font-semibold">
+            Oops! The page you’re looking for isn’t available.
+          </p>
+          <p class="text-lg text-gray-600 mt-2">
+            It might have been moved or deleted. Let's get you back on track!
+          </p>
+        </div>
+
+        <a href="/" class="mt-6">
+          <button
+            class="bg-[#FF385C] p-2 rounded-[1rem] text-white w-40 hover:bg-[#FF2E3C] transition-all"
+          >
+            Return to Home
+          </button>
+        </a>
+      </div>
+    </main>
+  </body>
+</html>
