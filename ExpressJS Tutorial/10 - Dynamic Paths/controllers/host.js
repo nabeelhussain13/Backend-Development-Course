@@ -56,7 +56,6 @@ exports.hostEditHome = (req, res, next) => {
 
 exports.postDeleteHome = (req, res, next) => {
   const homeId = req.params.homeId;
-
   Home.deleteById(homeId, (error) => {
     if (error) {
       console.log("Error while deleting home!");
