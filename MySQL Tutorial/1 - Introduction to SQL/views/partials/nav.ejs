@@ -1,0 +1,34 @@
+<header>
+  <nav class="bg-[#FF385C] h-12 flex items-center">
+    <a
+      href="/"
+      class="text-white ml-8 <%= currentPage === 'airbnbIndex'? 'bg-red-600 px-4 rounded-[1rem]' : 'hover:bg-red-400 px-4 rounded-[1rem]' %>"
+      >airbnb</a
+    >
+    <a
+      href="/homes-list"
+      class="text-white ml-8 <%= currentPage === 'homesList'? 'bg-red-600 px-4 rounded-[1rem]' : 'hover:bg-red-400 px-4 rounded-[1rem]' %>"
+      >Homes List</a
+    >
+    <a
+      href="/favourite-list"
+      class="text-white ml-8 <%= currentPage === 'favouriteList'? 'bg-red-600 px-4 rounded-[1rem]' : 'hover:bg-red-400 px-4 rounded-[1rem]' %>"
+      >Favourites</a
+    >
+    <a
+      href="/bookings"
+      class="text-white ml-8 <%= currentPage === 'bookings'? 'bg-red-600 px-4 rounded-[1rem]' : 'hover:bg-red-400 px-4 rounded-[1rem]' %>"
+      >Bookings</a
+    >
+    <a
+      href="/host/host-homes-list"
+      class="text-white ml-8 <%= currentPage === 'hostHomesList'? 'bg-red-600 px-4 rounded-[1rem]' : 'hover:bg-red-400 px-4 rounded-[1rem]' %>"
+      >Host Homes</a
+    >
+    <a
+      href="/host/add-home"
+      class="text-white ml-8 <%= currentPage === 'addHome'? 'bg-red-600 px-4 rounded-[1rem]' : 'hover:bg-red-400 px-4 rounded-[1rem]' %>"
+      >Add Home</a
+    >
+  </nav>
+</header>
