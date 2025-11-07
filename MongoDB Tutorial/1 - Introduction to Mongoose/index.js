@@ -27,8 +27,7 @@ app.use(errorsController.get404);
 
 const PORT = 3001;
 
-const DB_PATH =
-  "mongodb+srv://root:root@cluster0.zaj9lnt.mongodb.net/airbnb?appName=Cluster0";
+const DB_PATH = "";
 
 mongoose
   .connect(DB_PATH)
